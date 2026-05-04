@@ -1,0 +1,36 @@
+# Environments
+venv/
+env/
+.astra-wsl-venv/
+.env
+
+# Execution Workspace
+workspace/*.py
+workspace/*.sage
+workspace/*.mac
+workspace/*.cdb
+workspace/uploads/
+workspace/assets/
+workspace/reports/
+workspace/state.json
+!workspace/.keep
+
+# Runtime logs / output
+astra_out.txt
+*.log
+
+# Release artifacts
+dist/
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Service account keys
+*-key.json
+*-sa-key.json
